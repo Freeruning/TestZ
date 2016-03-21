@@ -7,14 +7,13 @@
 		body,div,ul,li,img{margin:0;padding:0;}
 		body{background-color: #dedede;}
 		p,span,a{font:12px "Arial","Hiragino Sans GB","Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";}
-		h2,article span,time{color: #ccc;}
-		.nav{height: 60px;background-color: #333;line-height: 60px;padding:0 30px;color: #fff;position: relative;font-size: 12px;clear:both;}
-		.nav ul{position: absolute;right: 0px;top: 0;clear:both;}
+		h2,article span,time,.nav li:last-child{color: #ccc;}
+		.nav,.footer{height: 60px;background-color: #333;color: #fff;line-height: 60px;font-size: 12px;}
+		.nav,.main{padding:0 30px;position: relative;margin-bottom: 15px;}
+		.nav ul,.right{position: absolute;right: 0;top: 0;}
 		.nav li{float: left;width: 100px;}
-		.nav li:last-child{color: #ccc;}
-		.main{position: relative;}
 		.left{margin-right: 400px;}
-		.right{clear:both;position: absolute;right: 0;top: 0；}
+		.footer{text-align: center;}
 		article,.form{background-color: #fff;padding: 10px 20px;margin-bottom: 20px;}
 		article p{text-indent: 2em;line-height: 1.5em;}
 		article ul{list-style: none}
@@ -26,9 +25,9 @@
 		table tfoot{background-color: #ccc;}
 		form{margin-left:20px;font:-size:12px;}
 		.ce{border-left:3px solid #888;height: 25px;line-height: 25px;padding-left: 5px;}
-		form label{display:inline-block;width: 130px;text-align: right;margin-right: 10px;}
+		form label{text-align: right;margin-right: 10px;}
 		form p{margin-left: 140px;color: #ccc;}
-		textarea{display:inline-block;width: 150px;}
+		textarea,form label{display:inline-block;width: 150px;}
 		input[type="submit"]{width: 100%;height: 25px;background-color: #3355d0;margin:10px;border:0;border-radius: 4px;} 
 	</style>
 </head>
@@ -173,7 +172,7 @@
 	</div>
 </div>
 <div class="footer">
-	<p>版权所有@轩</p>
+	<span>版权所有@轩</span>
 </div>
 </body>
 </html>
