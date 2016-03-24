@@ -1,0 +1,124 @@
+/* reast */
+	html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+	html,body,fieldset,img,iframe,abbr{border:0;}
+	li{list-style:none;}
+	h1,h2,h3,h4,h5,h6,small{font-size:100%;font-weight: normal;}
+	q:before,q:after{content:none;}
+	textarea{overflow:auto;resize:none;}
+	label{cursor:default;}
+	a,button{cursor:pointer;}
+	a,a:hover{text-decoration:none;}
+	body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;color:#333;outline:0;}
+	body{background:#fff;}
+	a,a:hover{color:#333;}
+
+/* 共用样式 */
+.le{float: left;}
+.ri{float: right;}
+.bl{display:block;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.clearfix:after{content: "";display: block;height: 0;clear: both; }
+
+hr{width: 30px;border-top: 2px solid #fff;}
+.header,.main{width:1280px;margin: 0 auto;}
+.shade{height: 100%;width: 100%;opacity:0.2;filter:alpha(opacity=20);}
+/* 导航条 */
+.header{padding:0 65px;width: 1150px;}
+.header .logo{margin: 12px 0;width: 120px;}
+.header .logo i{width:32px;height:32px;background: url(../images/spite_07.png) no-repeat 0 0;}
+.header .logo h2{font: 21px/32px normal "SimHei";}
+.header .nav a{font: 14px/56px "微软雅黑";margin-left:18px;display:inline-block;padding:0 16px;height: 51px;text-align:center;}
+.header .nav a:hover{border-bottom: 5px solid #e74f4d;background-color: #ddd;color: #e74f4d;}
+.header .nav span{margin-top:19px;font: 14px/17px "微软雅黑";color: #e74f4d; cursor: pointer;}
+.header .nav i{display:inline-block;width:14px;height:17px;margin-right:5px;background: url(../images/spite_07.png) no-repeat -36px 0;vertical-align: text-bottom;}
+
+/* banner图片 */
+.main .banner{height:692px;background: url(../images/newlife_1.jpg) no-repeat;}
+.main .banner .shade{background-color:#000;}
+.main .banner .new{left: 125px;top:230px;font: 20px/1.5 "SimHei";color: #fff;}
+.main .banner .new h4{font: 50px/2 normal "SimHei";text-indent: -10px;}
+.main .banner .new a{width: 330px;height: 63px;margin-top:65px;font: 20px/63px "SimHei";background-color: #e74f4d;color: #fff;text-align: center;}
+/* 课程特点 */
+.main .strong .point{width: 320px;height: 250px;}
+.main .strong .point i{margin:45px auto;width: 35px;height: 42px;background: url(../images/spite_07.png) no-repeat 0 -36px;}
+.main .strong .point i.p1{width: 42px;}
+.main .strong .point i.p2{background-position: -42px -36px;}
+.main .strong .point i.p3{background-position: -78px -36px;}
+.main .strong .point i.p4{width: 41px;background-position: -113px -36px;}
+.main .strong .point p{font: 14px/20px  "微软雅黑";margin: 0 auto;height: 52px;width: 148px;padding:0 85px;text-align: center;}
+.main .strong .point+.point p{border-left: 2px solid #bbb;}
+/* 城市活动 */
+.main .city .what{height: 270px;background-color: #edecec;text-align: center;padding-top: 90px;font: 54px/94px "SimHei";color: #a1a1a1;}
+.main .city .what i{display:inline-block;width:91px;height:91px;background: url(../images/spite_07.png) no-repeat 0 -78px;}
+.main .city .seach{height: 340px;background: url(../images/newlife_2.jpg) no-repeat;}
+.main .city .seach .shade{background-color:#aa3433;}
+.main .city .seach .writing{width:100%;font: 21px/30px "微软雅黑";color: #fff;text-align: center;padding-top: 50px;}
+
+
+.main .city .seach .writing p{font-size:12px;margin-bottom: 50px; }
+.main .city .seach .sou div{display:inline-block;margin-left: 30px;}
+.main .city .seach .select input{width: 213px;padding-left:12px;line-height:36px;font-size:12px;color: #a1a1a1;cursor: default;}
+.main .city .seach .select input:hover{border: 2px solid #be4e48;}
+.main .city .seach .select i{right:9px;top:9px;width:19px;height:18px;background: url(../images/spite_07.png) no-repeat -51px 0;}
+.main .city .seach .play{height: 35px;width: 237px;text-align: center;font: 14px/35px "微软雅黑";background-color:#be4e48;cursor: pointer;}
+.main .city .seach .sheng{width: 225px;height: 120px;background-color: #e3e3e4;left: 404px;border: 2px solid #be4e48;border-top:0; }
+.main .city .seach .sheng li{padding-left: 30px;font: 14px/1.5 "微软雅黑";text-align: left;color: #808182;cursor: default;}
+.main .city .seach .sheng li:hover{color: #fff;background: url(../images/spite_07.png) no-repeat -70px 5px #be4e48;}
+.main .city .active{padding:100px 0;background-color: #f7f7f7;text-align: center;}
+.main .city .active li{display:inline-block;width: 220px;height: 390px; font: 14px/24px "微软雅黑";}
+.main .city .active li+li{margin-left: 35px;}
+.main .city .active li img{padding:12px 8px;border:1px solid #dadada;box-sizing: border-box;margin-bottom: 10px;}
+.main .city .active li h5{font-weight: bold;}
+.main .city .active .hai img{margin-bottom: 0px;margin-top: 5px;}
+.main .city .active .hai h5{font-size: 22px;word-spacing: 30px;}
+.main .bei{height: 565px;}
+.main .bei .one{padding:135px 65px 125px;font: 12px/30px "微软雅黑";text-align: center;right: 0;top: 0; }
+.main .bei .one h5{font: 20px/60px "微软雅黑"; }
+.main .bei .one h5 span{color: #e74f4d;}
+.main .bei .one p{width: 290px;height: 105px;color: #c9c9c9;margin-bottom: 40px;}
+.main .more{width:103px;height:30px;border: 1px solid #e5676a;margin: 0 auto; }
+.main .more a{display:inline-block;width:103px;height:30px;color: #e5676a;}
+.main .bei .one .tab{height: 12px;width: 66px;margin: 0 auto;}
+.main .bei .one .tab i{display: inline-block;width: 10px;height: 10px;border-radius: 6px;border: 1px solid #929293;margin: 20px 5px; }
+.main .bei .one .tab i:hover{background-color:#929293; }
+/*新时代*/
+.main .times .wo{height:351px;width: 424px;text-align: center;padding-top: 170px;color: #fff;font: 20px/30px "微软雅黑";}
+.main .times .wo hr{margin: 20px auto;}
+.main .times .wo .more{width:170px;padding: 5px 0; }
+.main .times .t-left{background-color: #e74f4d;}
+.main .times .t-left .more{border-color: #fff;}
+.main .times .t-left .more a{color: #fff;}
+.main .times .t-right{color: #000;}
+.main .times .t-right hr{border-color: #bbb;}
+/*成为志愿者 表单*/
+.main .volunteer{height: 750px;font: 12px/20px "微软雅黑";color: #b7b7b7;}
+.main .volunteer h4{font: normal normal 14px/32px "SimHei";color: #000;}
+.main .volunteer .v-introduce{width: 440px;height: 100px;margin: 110px auto;text-align: center;}
+.main .volunteer .v-introduce h4{font-size: 21px;}
+.main .volunteer .v-introduce hr{border-color: #e74f4d;}
+.main .volunteer .v-form .zhi{width: 300px;height: 120px;}
+.main .volunteer .v-form .zhi p{margin: 20px 0;}
+.main .volunteer .v-form .zhi span{line-height:6px;position: absolute;right: 5px;bottom: 5px;text-indent: 15px;background: url(../images/spite_07.png) no-repeat -84px 0;}
+.main .volunteer .v-form .zhi:last-child{height: 65px;}
+.main .volunteer .f-item{margin:0 75px 0 135px;}
+.main .volunteer .f-apply input,.main .volunteer .f-apply textarea{border: 0;background-color:#ededee;} 
+.main .volunteer .f-apply input[type="text"]{padding:14px;line-height: 12px;width:310px;margin:0 18px 14px 0; }
+.main .volunteer .f-apply textarea{height: 120px;padding: 10px 20px;width: 658px;margin-bottom: 10px;}
+.main .volunteer .f-apply input[type="submit"]{width: 698px;line-height: 42px;height: 42px;}
+/*尾部*/
+.footer{height: 415px;color: #fff;}
+.footer .contact{text-align: center;background-color: #32353e;padding: 90px 0 70px 0;height: 200px;}
+.footer .contact h4{font: normal normal 14px/32px "SimHei";}
+.footer .contact p{width: 468px;margin:0 auto;}
+.footer .contact input{border: 0;}
+.footer .contact input[type="text"]{font-size:12px;padding:12px;line-height: 12px;width:310px;margin-top: 30px;}
+.footer .contact input[type="submit"]{width: 80px;height: 39px;background-color: #6f7178;color: #fff;font-size: 14px;font-weight: bold;}
+.footer .contact .icoa{margin-top: 38px;}
+.footer .contact .icoa a{height: 25px;display: inline-block;background: url(../images/spite_07.png) no-repeat -91px -78px;margin-right:28px; }
+.footer .contact .icoa .qq{width: 24px;}
+.footer .contact .icoa .sina{width: 30px;background-position: -115px -78px;}
+.footer .contact .icoa .twier{width: 28px;background-position: -91px -103px; }
+.footer .contact .icoa .web{width: 24px;background-position: -120px -103px;}
+.footer .back{background-color: #282828;padding:30px 100px 17px;}
+.footer .back a{color: #fff;position: absolute;right: 100px;top:30px;
